@@ -183,7 +183,9 @@ public class PokemonCollectionOperations {
             return 0;
         }
     }
-
+    public List<Pokemon> getPokemonList() {
+        return pokemonList;
+    }
     public static void main(String[] args) {
         String filePath = "data/pokemon.json"; // Reemplaza con la ruta correcta de tu archivo JSON
         PokemonCollectionOperations collection = new PokemonCollectionOperations(filePath);
