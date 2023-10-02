@@ -187,7 +187,7 @@ public class PokemonCollectionOperations {
         return pokemonList;
     }
     public static void main(String[] args) {
-        String filePath = "data/pokemon.json"; // Reemplaza con la ruta correcta de tu archivo JSON
+        String filePath = "data/pokemon.json";
         PokemonCollectionOperations collection = new PokemonCollectionOperations(filePath);
 
         System.out.println("Nombres de los 10 primeros pokemons: ");
